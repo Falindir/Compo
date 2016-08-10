@@ -1,0 +1,1 @@
+| t7 codeCompo |codeCompo := 'Descriptor TestPharo6 extends Component {	        provides {                default: {                         main();                };		   print : {			printTexte();		}         }	service main() {		self.printTexte();	}		service printTexte() {		}}'.t7 := CompoToSmalltalk convert: codeCompo.Compiler evaluate: t7.						
