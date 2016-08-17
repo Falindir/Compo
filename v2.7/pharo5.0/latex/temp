@@ -1,0 +1,5 @@
+    \node[draw, circle, minimum size=0.1cm, scale=0.05] at ([xshift=-4.75cm, yshift=-1cm] c_1.north) (p_1_a) {};
+    \node[draw, circle, minimum size=0.1cm, scale=0.05] at ([xshift=-3.75cm, yshift=-1cm] c_1.north) (p_1_b) {};
+    \node[draw, circle, minimum size=0.1cm, scale=0.05] at ([xshift=-4.25cm, yshift=-1cm] c_1.north) (p_1_i) {};
+    \node[draw=none] at ([xshift=-4.65cm, yshift=-0.7cm] c_1.north) {\tiny name of port interne required};
+    \draw[-] (p_1_a) -- (p_1_b) node {};

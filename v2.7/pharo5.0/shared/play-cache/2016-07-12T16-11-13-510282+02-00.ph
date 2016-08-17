@@ -1,0 +1,1 @@
+| cmp |cmp := VComponent new: ((ContainerPH5 newC) instVarNamed: #owner).LatexFactoryFullMode create: cmp.LatexGeneratorFullMode generate: cmp.LatexGeneratorSimpleMode generate: cmp.LatexGeneratorDetailedMode generate: cmp.
