@@ -1,0 +1,2580 @@
+
+Segmentation fault Mon Aug  1 16:55:15 2016
+
+
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff85cc24 ebx 0xff85cb40 ecx 0xff85cbd8 edx 0xff85cb8c
+	edi 0xff85ca10 esi 0xff85ca10 ebp 0xff85caa8 esp 0xff85caf4
+	eip 0xff85cd08
+*[0xff85cd08]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8083515]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8099865]
+[0x9bbe5ce]
+[0x9bf9cc6]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9b00b50]
+[0xb23a192]
+[0xb23a39a]
+[0x9bd4830]
+[0x9b0a324]
+[0x9b00b50]
+[0xb2f04d1]
+[0xb23a085]
+[0x9b00b20]
+/lib/i386-linux-gnu/libc.so.6(_IO_file_fopen+0x12b)[0xf761187b]
+
+Segmentation fault Mon Aug  1 16:55:15 2016
+
+
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff85b5e4 ebx 0xff85b500 ecx 0xff85b598 edx 0xff85b54c
+	edi 0xff85b3d0 esi 0xff85b3d0 ebp 0xff85b468 esp 0xff85b4b4
+	eip 0xff85b6c8
+*[0xff85b6c8]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80793f1]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8087fb7]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809ef72]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809f041]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809f0ba]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0a25]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8083515]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8099865]
+[0x9bbe5ce]
+[0x9bf9cc6]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9b00b50]
+[0xb23a192]
+[0xb23a39a]
+[0x9bd4830]
+[0x9b0a324]
+[0x9b00b50]
+[0xb2f04d1]
+[0xb23a085]
+[0x9b00b20]
+[0x0]
+
+Most recent primitives
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**IncrementalGC**
+primUTCMicrosecondsClock
+
+
+
+
+
+primSignal:atUTCMicroseconds:
+
+
+invokeWithArguments:
+
+primUTCMicrosecondsClock
+
+
+
+
+
+primSignal:atUTCMicroseconds:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sizeFieldPut:
+addressFieldPut:
+unsignedLongAt:
+
+unsignedLongAt:
+
+sizeFieldPut:
+addressFieldPut:
+**StackOverflow**
+
+**StackOverflow**
+signedLongAt:
+**StackOverflow**
+
+
+**StackOverflow**
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+**PrimitiveFailure**
+**StackOverflow**
+
+
+
+
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+signedLongAt:put:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+unsignedLongAt:put:
+primReturnAs:fromContext:
+**PrimitiveFailure**
+
+
+**StackOverflow**
+
+findNextHandlerOrSignalingContext
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 2976
+
+	(Segmentation fault)
+
+
+Smalltalk stack dump:
+0xff8b5ab0 M 
+Segmentation fault Mon Aug  1 16:55:15 2016
+
+
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff85b5e4 ebx 0xff85b500 ecx 0xff85b598 edx 0xff85b54c
+	edi 0xff85b3d0 esi 0xff85b3d0 ebp 0xff85b468 esp 0xff85b4b4
+	eip 0xff85b6c8
+*[0xff85b6c8]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c76]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80793f1]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8087fb7]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809ef72]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809f041]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809f0ba]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0a25]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8083515]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8099865]
+[0x9bbe5ce]
+[0x9bf9cc6]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9b00b50]
+[0xb23a192]
+[0xb23a39a]
+[0x9bd4830]
+[0x9b0a324]
+[0x9b00b50]
+[0xb2f04d1]
+[0xb23a085]
+[0x9b00b20]
+[0x0]
+
+Most recent primitives
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**IncrementalGC**
+primUTCMicrosecondsClock
+
+
+
+
+
+primSignal:atUTCMicroseconds:
+
+
+invokeWithArguments:
+
+primUTCMicrosecondsClock
+
+
+
+
+
+primSignal:atUTCMicroseconds:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sizeFieldPut:
+addressFieldPut:
+unsignedLongAt:
+
+unsignedLongAt:
+
+sizeFieldPut:
+addressFieldPut:
+**StackOverflow**
+
+**StackOverflow**
+signedLongAt:
+**StackOverflow**
+
+
+**StackOverflow**
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+**PrimitiveFailure**
+**StackOverflow**
+
+
+
+
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+signedLongAt:put:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+unsignedLongAt:put:
+primReturnAs:fromContext:
+**PrimitiveFailure**
+
+
+**StackOverflow**
+
+findNextHandlerOrSignalingContext
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 2976
+
+	(Segmentation fault)
+
+Segmentation fault Mon Aug  1 18:33:36 2016
+
+
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xffe4f224 ebx 0xffe4f140 ecx 0xffe4f1d8 edx 0xffe4f18c
+	edi 0xffe4f010 esi 0xffe4f010 ebp 0xffe4f0a8 esp 0xffe4f0f4
+	eip 0xffe4f308
+*[0xffe4f308]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf774b420]
+/lib/i386-linux-gnu/libc.so.6(+0x12d369)[0xf764b369]
+/usr/lib/i386-linux-gnu/dri/nouveau_dri.so(+0x1477d2)[0xf64ec7d2]
+/usr/lib/i386-linux-gnu/dri/nouveau_dri.so(+0xbb085)[0xf6460085]
+/usr/lib/i386-linux-gnu/dri/nouveau_dri.so(+0xbb247)[0xf6460247]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80e7eab]
+[0x8f00bb0]
+[0x8fcf723]
+[0x8f0d6c3]
+[0x8f0384c]
+[0x8f0b949]
+[0x8f037e1]
+[0x8f0d631]
+[0x8f17c11]
+[0x8f1a611]
+[0x8f1a78c]
+[0x8f18fce]
+[0x8f1a6b3]
+[0x8f1a55f]
+[0x8f1a2f6]
+[0x8f1a211]
+[0x8f1a196]
+[0x8f1a116]
+[0x8f1a07e]
+[0x8f19f6f]
+[0x8f075a6]
+[0x8f03c3e]
+[0x8f080c3]
+[0x8f03a87]
+[0x8f03daf]
+[0x8f00b50]
+[0xa3158c5]
+[0x8f00b20]
+[0xffe4ddfb]
+
+
+Smalltalk stack dump:
+0xffe671b0 M UFFIOpenGL>readPixels_x:y:width:height:format:type:pixels: 0xee848e0: a(n) UFFIOpenGL
+0xffe671e4 M WDGLRenderer>readFrameBufferIntoForm: 0xee78b60: a(n) WDGLRenderer
+0xffe67204 M [] in WDMorphicWindow>readRenderedFrame 0xe90e678: a(n) WDMorphicWindow
+0xffe67224 M [] in Semaphore>critical: 0xe140330: a(n) Semaphore
+0xffe67244 M BlockClosure>ensure: 0x928fc10: a(n) BlockClosure
+0xffe67264 M Semaphore>critical: 0xe140330: a(n) Semaphore
+0xffe67284 M WDMorphicWindow>readRenderedFrame 0xe90e678: a(n) WDMorphicWindow
+0xffe6729c M WDMorphicWindow>render 0xe90e678: a(n) WDMorphicWindow
+0xffe672b4 M [] in WDMorphicWindow>enqueueRender 0xe90e678: a(n) WDMorphicWindow
+0xffe672d0 M OSWindowRenderThread class>enqueueOperation:blocking:ifError: 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe672f4 M OSWindowRenderThread class>enqueueOperation:blocking: 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67314 M OSWindowRenderThread class>enqueueOperation: 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67330 M WDMorphicWindow>enqueueRender 0xe90e678: a(n) WDMorphicWindow
+0xffe67348 M WDMorphicWindow>visitWindowFrameEvent: 0xe90e678: a(n) WDMorphicWindow
+0xffe67364 M WDMorphicOSWindowEventHandler>visitWindowFrameEvent: 0xee78b50: a(n) WDMorphicOSWindowEventHandler
+0xffe67380 M OSWindowFrameEvent>accept: 0x9257db8: a(n) OSWindowFrameEvent
+0xffe6739c M WDMorphicOSWindowEventHandler(OSWindowEventVisitor)>handleEvent: 0xee78b50: a(n) WDMorphicOSWindowEventHandler
+0xffe673b8 M OSWindowAnimated(OSWindow)>deliverEvent: 0xe140828: a(n) OSWindowAnimated
+0xffe673d4 M OSWindowFrameEvent(OSEvent)>deliver 0x9257db8: a(n) OSWindowFrameEvent
+0xffe673ec M OSWindowRenderThread class>doAnimationFrameFor: 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe6740c M [] in OSWindowRenderThread class>performAnimationFrames 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67434 M WeakSet>do: 0x9257c80: a(n) WeakSet
+0xffe67454 M OSWindowRenderThread class>performAnimationFrames 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67470 M OSWindowRenderThread class>renderThreadProcess 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67490 I [] in OSWindowRenderThread class>createRenderThread 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe674b0 I [] in BlockClosure>newProcess 0xd2f79a8: a(n) BlockClosure
+
+Most recent primitives
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+allocate:
+integerAt:put:size:signed:
+invokeWithArguments:
+free
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+millisecondClockValue
+wait
+invokeWithArguments:
+allocate:
+integerAt:put:size:signed:
+invokeWithArguments:
+free
+size
+basicNew:
+decompress:fromByteArray:at:
+primUTCMicrosecondsClock
+>=
+signal
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+instVarAt:
+invokeWithArguments:
+signal
+primUTCMicrosecondsClock
++
+<
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+wait
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+basicNew:
+compress:toByteArray:
+basicNew:
+replaceFrom:to:with:startingAt:
+basicNew:
+compress:toByteArray:
+primUTCMicrosecondsClock
+>=
+signal
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+instVarAt:
+invokeWithArguments:
+signal
+primUTCMicrosecondsClock
++
+<
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+wait
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 2984
+
+	(Segmentation fault)
+
+Segmentation fault Tue Aug  2 12:20:53 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xffe534e4 ebx 0xffe53400 ecx 0xffe53498 edx 0xffe5344c
+	edi 0xffe532d0 esi 0xffe532d0 ebp 0xffe53368 esp 0xffe533b4
+	eip 0xffe535c8
+*[0xffe535c8]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf772f420]
+/usr/lib/i386-linux-gnu/libX11.so.6(XChangeProperty+0x1a)[0xf711193a]
+/usr/lib/i386-linux-gnu/libX11.so.6(XSetTextProperty+0x52)[0xf71301a2]
+[0x0]
+
+
+Smalltalk stack dump:
+0xffe5b6bc I UFFIOpenGL>uniformMatrix3fv_location:count:transpose:value: 0xf6ca788: a(n) UFFIOpenGL
+0xffe5b6f0 I WDGLProgram>uniform:mat3: 0xf6c1ae8: a(n) WDGLProgram
+0xffe5b720 I [] in WDGLRenderer>uniform:mat3: 0xf6d3708: a(n) WDGLRenderer
+0xffe5b740 I WDGLRenderer>uniform:block: 0xf6d3708: a(n) WDGLRenderer
+0xffe5b768 I WDGLRenderer>uniform:mat3: 0xf6d3708: a(n) WDGLRenderer
+0xffe5b790 I WDGLRenderer>updateModelNormalMatrix 0xf6d3708: a(n) WDGLRenderer
+ 0xf15c2e8 s WDGLRenderer>modelMatrix:
+ 0xeed4ca8 s WDBaseMeshRenderable(WDMeshRenderable)>render:modelMatrix:
+ 0xee91d18 s WDSinglePassSceneRenderer(WDSceneRenderer)>renderElement:transform:
+ 0xee6bab8 s [] in WDSinglePassSceneRenderer(WDSceneRenderer)>performRenderPass
+ 0xde24008 s OrderedCollection>do:
+ 0xe01d040 s WDSinglePassSceneRenderer(WDSceneRenderer)>performRenderPass
+ 0xe4d0bd0 s WDSinglePassSceneRenderer>performRendering
+ 0xe9befd0 s WDSinglePassSceneRenderer(WDSceneRenderer)>render:
+ 0xea20da0 s WDSinglePassSceneRenderer(WDSceneRenderer)>render
+ 0xead9b08 s WDSinglePassSceneRenderer(WDSceneRenderer)>renderScene
+ 0xebd51b0 s RWViewWindow>renderNoStereo
+ 0xec56468 s RWViewWindow>render
+ 0xece9620 s WDMorphicWindow>render
+ 0xed96108 s [] in WDMorphicWindow>enqueueRender
+ 0xedad298 s OSWindowRenderThread class>enqueueOperation:blocking:ifError:
+ 0xedc1fa8 s OSWindowRenderThread class>enqueueOperation:blocking:
+ 0xedc7ef8 s OSWindowRenderThread class>enqueueOperation:
+ 0xedc2150 s WDMorphicWindow>enqueueRender
+ 0xedc7fc0 s WDMorphicWindow>visitWindowFrameEvent:
+ 0xedecce0 s WDMorphicOSWindowEventHandler>visitWindowFrameEvent:
+ 0xedeefc0 s OSWindowFrameEvent>accept:
+ 0xedf1808 s WDMorphicOSWindowEventHandler(OSWindowEventVisitor)>handleEvent:
+ 0xee14f20 s OSWindowAnimated(OSWindow)>deliverEvent:
+ 0xee167e0 s OSWindowFrameEvent(OSEvent)>deliver
+ 0xee1ee20 s OSWindowRenderThread class>doAnimationFrameFor:
+ 0xee26b40 s [] in OSWindowRenderThread class>performAnimationFrames
+ 0xee27cd0 s WeakSet>do:
+ 0xee28e20 s OSWindowRenderThread class>performAnimationFrames
+ 0xf6426d8 s OSWindowRenderThread class>renderThreadProcess
+ 0xf1acfc0 s [] in OSWindowRenderThread class>createRenderThread
+ 0xf588be0 s [] in BlockClosure>newProcess
+
+Most recent primitives
+findContextSuchThat:
+value:
+valueNoContextSwitch
+valueNoContextSwitch
+**StackOverflow**
+at:
+objectAt:
+class
+header
+basicNew:
+stackp:
+at:
+at:put:
+valueNoContextSwitch
+value
+stackp:
+at:put:
+at:
+stackp:
+valueNoContextSwitch
+jump
+jump
+jump
+jump
+stackp:
+at:put:
+at:
+stackp:
+findNextUnwindContextUpTo:
+terminateTo:
+value
+stackp:
+at:put:
+at:
+stackp:
+at:
+value
+at:
+stackp:
+findNextUnwindContextUpTo:
+at:put:
+at:put:
+stackp:
+at:put:
+<
+<
+<
+<
+at:
+stackp:
+at:
+stackp:
+at:put:
+at:
+stackp:
+return:from:
+return:from:
+at:put:
+at:put:
+stackp:
+at:put:
+at:
+class
+noMask:
+numCopiedValues
+stackp:
+numCopiedValues
+basicNew
+priority:
+primitiveResume
+garbageCollectMost
+**IncrementalGC**
+at:put:
+new
+primLowSpaceSemaphore:
+primSignalAtBytesLeft:
+wait
+floatAt:
+floatAt:
+floatAt:
+y
+x
+class
+basicNew
+floatAt:put:
+floatAt:put:
+floatAt:put:
+floatAt:
+floatAt:
+floatAt:
+class
+bitAnd:
+fromHandle:
+fromHandle:
+fromHandle:
+fromHandle:
+floatAt:
+z
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+newX:y:z:
+newX:y:z:
+floatAt:put:
+floatAt:put:
+floatAt:put:
+floatAt:
+floatAt:
+floatAt:
+floatAt:put:
+floatAt:put:
+floatAt:put:
+basicNew:
+floatAt:
+class
+floatAt:put:
+floatAt:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+class
+new
+new
+new
+class
+numRows
+value:value:
+class
+floatAt:
+floatAt:put:
+value:value:
+value:value:
+value:value:
+value:value:
+value:value:
+value:value:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+size
+size
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+invokeWithArguments:
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 3036
+
+	(Segmentation fault)
+
+Segmentation fault Tue Aug  2 12:20:58 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xffaada24 ebx 0xffaad940 ecx 0xffaad9d8 edx 0xffaad98c
+	edi 0xffaad810 esi 0xffaad810 ebp 0xffaad8a8 esp 0xffaad8f4
+	eip 0xffaadb08
+*[0xffaadb08]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf76ec420]
+/usr/lib/i386-linux-gnu/libX11.so.6(_XcmsDIConvertColors+0x24)[0xf7130264]
+/usr/lib/i386-linux-gnu/libX11.so.6(_XcmsConvertColorsWithWhitePt+0xd4)[0xf7130194]
+[0x0]
+
+
+Smalltalk stack dump:
+0xffab5c0c I UFFIOpenGL>uniformMatrix3fv_location:count:transpose:value: 0xedca788: a(n) UFFIOpenGL
+0xffab5c40 I WDGLProgram>uniform:mat3: 0xedc1ae8: a(n) WDGLProgram
+0xffab5c70 I [] in WDGLRenderer>uniform:mat3: 0xedd3708: a(n) WDGLRenderer
+0xffab5c90 I WDGLRenderer>uniform:block: 0xedd3708: a(n) WDGLRenderer
+0xffab5cb8 I WDGLRenderer>uniform:mat3: 0xedd3708: a(n) WDGLRenderer
+0xffab5ce0 I WDGLRenderer>updateModelNormalMatrix 0xedd3708: a(n) WDGLRenderer
+ 0xe85c2e8 s WDGLRenderer>modelMatrix:
+ 0xe5d4ca8 s WDBaseMeshRenderable(WDMeshRenderable)>render:modelMatrix:
+ 0xe591d18 s WDSinglePassSceneRenderer(WDSceneRenderer)>renderElement:transform:
+ 0xe56bab8 s [] in WDSinglePassSceneRenderer(WDSceneRenderer)>performRenderPass
+ 0xd524008 s OrderedCollection>do:
+ 0xd71d040 s WDSinglePassSceneRenderer(WDSceneRenderer)>performRenderPass
+ 0xdbd0bd0 s WDSinglePassSceneRenderer>performRendering
+ 0xe0befd0 s WDSinglePassSceneRenderer(WDSceneRenderer)>render:
+ 0xe120da0 s WDSinglePassSceneRenderer(WDSceneRenderer)>render
+ 0xe1d9b08 s WDSinglePassSceneRenderer(WDSceneRenderer)>renderScene
+ 0xe2d51b0 s RWViewWindow>renderNoStereo
+ 0xe356468 s RWViewWindow>render
+ 0xe3e9620 s WDMorphicWindow>render
+ 0xe496108 s [] in WDMorphicWindow>enqueueRender
+ 0xe4ad298 s OSWindowRenderThread class>enqueueOperation:blocking:ifError:
+ 0xe4c1fa8 s OSWindowRenderThread class>enqueueOperation:blocking:
+ 0xe4c7ef8 s OSWindowRenderThread class>enqueueOperation:
+ 0xe4c2150 s WDMorphicWindow>enqueueRender
+ 0xe4c7fc0 s WDMorphicWindow>visitWindowFrameEvent:
+ 0xe4ecce0 s WDMorphicOSWindowEventHandler>visitWindowFrameEvent:
+ 0xe4eefc0 s OSWindowFrameEvent>accept:
+ 0xe4f1808 s WDMorphicOSWindowEventHandler(OSWindowEventVisitor)>handleEvent:
+ 0xe514f20 s OSWindowAnimated(OSWindow)>deliverEvent:
+ 0xe5167e0 s OSWindowFrameEvent(OSEvent)>deliver
+ 0xe51ee20 s OSWindowRenderThread class>doAnimationFrameFor:
+ 0xe526b40 s [] in OSWindowRenderThread class>performAnimationFrames
+ 0xe527cd0 s WeakSet>do:
+ 0xe528e20 s OSWindowRenderThread class>performAnimationFrames
+ 0xed426d8 s OSWindowRenderThread class>renderThreadProcess
+ 0xe8acfc0 s [] in OSWindowRenderThread class>createRenderThread
+ 0xec88be0 s [] in BlockClosure>newProcess
+
+Most recent primitives
+findContextSuchThat:
+value:
+valueNoContextSwitch
+valueNoContextSwitch
+**StackOverflow**
+at:
+objectAt:
+class
+header
+basicNew:
+stackp:
+at:
+at:put:
+valueNoContextSwitch
+value
+stackp:
+at:put:
+at:
+stackp:
+valueNoContextSwitch
+jump
+jump
+jump
+jump
+stackp:
+at:put:
+at:
+stackp:
+findNextUnwindContextUpTo:
+terminateTo:
+value
+stackp:
+at:put:
+at:
+stackp:
+at:
+value
+at:
+stackp:
+findNextUnwindContextUpTo:
+at:put:
+at:put:
+stackp:
+at:put:
+stepToCallee
+stepToCallee
+stepToCallee
+stepToCallee
+at:
+stackp:
+at:
+stackp:
+at:put:
+at:
+stackp:
+return:from:
+return:from:
+at:put:
+at:put:
+stackp:
+at:put:
+at:
+class
+noMask:
+numCopiedValues
+stackp:
+numCopiedValues
+basicNew
+priority:
+primitiveResume
+garbageCollectMost
+**IncrementalGC**
+at:put:
+new
+primLowSpaceSemaphore:
+primSignalAtBytesLeft:
+wait
+floatAt:
+floatAt:
+floatAt:
+y
+x
+class
+basicNew
+floatAt:put:
+floatAt:put:
+floatAt:put:
+floatAt:
+floatAt:
+floatAt:
+class
+bitAnd:
+fromHandle:
+fromHandle:
+fromHandle:
+fromHandle:
+floatAt:
+z
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+newX:y:z:
+newX:y:z:
+floatAt:put:
+floatAt:put:
+floatAt:put:
+floatAt:
+floatAt:
+floatAt:
+floatAt:put:
+floatAt:put:
+floatAt:put:
+basicNew:
+floatAt:
+class
+floatAt:put:
+floatAt:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+class
+new
+new
+new
+class
+numRows
+value:value:
+class
+floatAt:
+floatAt:put:
+value:value:
+value:value:
+value:value:
+value:value:
+value:value:
+value:value:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+size
+size
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+invokeWithArguments:
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 3036
+
+	(Segmentation fault)
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff940464 ebx 0xff940380 ecx 0xff940418 edx 0xff9403cc
+	edi 0xff940250 esi 0xff940250 ebp 0xff9402e8 esp 0xff940334
+	eip 0xff940548
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff93eca4 ebx 0xff93ebc0 ecx 0xff93ec58 edx 0xff93ec0c
+	edi 0xff93ea90 esi 0xff93ea90 ebp 0xff93eb28 esp 0xff93eb74
+	eip 0xff93ed88
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff93d4e4 ebx 0xff93d400 ecx 0xff93d498 edx 0xff93d44c
+	edi 0xff93d2d0 esi 0xff93d2d0 ebp 0xff93d368 esp 0xff93d3b4
+	eip 0xff93d5c8
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff93bd24 ebx 0xff93bc40 ecx 0xff93bcd8 edx 0xff93bc8c
+	edi 0xff93bb10 esi 0xff93bb10 ebp 0xff93bba8 esp 0xff93bbf4
+	eip 0xff93be08
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff93a564 ebx 0xff93a480 ecx 0xff93a518 edx 0xff93a4cc
+	edi 0xff93a350 esi 0xff93a350 ebp 0xff93a3e8 esp 0xff93a434
+	eip 0xff93a648
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff938da4 ebx 0xff938cc0 ecx 0xff938d58 edx 0xff938d0c
+	edi 0xff938b90 esi 0xff938b90 ebp 0xff938c28 esp 0xff938c74
+	eip 0xff938e88
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff9375e4 ebx 0xff937500 ecx 0xff937598 edx 0xff93754c
+	edi 0xff9373d0 esi 0xff9373d0 ebp 0xff937468 esp 0xff9374b4
+	eip 0xff9376c8
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff935e24 ebx 0xff935d40 ecx 0xff935dd8 edx 0xff935d8c
+	edi 0xff935c10 esi 0xff935c10 ebp 0xff935ca8 esp 0xff935cf4
+	eip 0xff935f08
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff934664 ebx 0xff934580 ecx 0xff934618 edx 0xff9345cc
+	edi 0xff934450 esi 0xff934450 ebp 0xff9344e8 esp 0xff934534
+	eip 0xff934748
+*[0xff934748]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo(pushOutputFile+0xcd)[0x80bbf9d]
+
+
+Smalltalk stack dump:
+0xff94cd3c I UFFIOpenGL>uniformMatrix3fv_location:count:transpose:value: 0xfcca788: a(n) UFFIOpenGL
+0xff94cd70 I WDGLProgram>uniform:mat3: 0xfcc1ae8: a(n) WDGLProgram
+0xff94cda0 I [] in WDGLRenderer>uniform:mat3: 0xfcd3708: a(n) WDGLRenderer
+0xff94cdc0 I WDGLRenderer>uniform:block: 0xfcd3708: a(n) WDGLRenderer
+0xff94cde8 I WDGLRenderer>uniform:mat3: 0xfcd3708: a(n) WDGLRenderer
+0xff94ce10 I WDGLRenderer>updateModelNormalMatrix 0xfcd3708: a(n) WDGLRenderer
+ 0xf75c2e8 s WDGLRenderer>modelMatrix:
+ 0xf4d4ca8 s WDBaseMeshRenderable(WDMeshRenderable)>render:modelMatrix:
+ 0xf491d18 s WDSinglePassSceneRenderer(WDSceneRenderer)>renderElement:transform:
+ 0xf46bab8 s [] in WDSinglePassSceneRenderer(WDSceneRenderer)>performRenderPass
+ 0xe424008 s OrderedCollection>do:
+ 0xe61d040 s WDSinglePassSceneRenderer(WDSceneRenderer)>performRenderPass
+ 0xead0bd0 s WDSinglePassSceneRenderer>performRendering
+ 0xefbefd0 s WDSinglePassSceneRenderer(WDSceneRenderer)>render:
+ 0xf020da0 s WDSinglePassSceneRenderer(WDSceneRenderer)>render
+ 0xf0d9b08 s WDSinglePassSceneRenderer(WDSceneRenderer)>renderScene
+ 0xf1d51b0 s RWViewWindow>renderNoStereo
+ 0xf256468 s RWViewWindow>render
+ 0xf2e9620 s WDMorphicWindow>render
+ 0xf396108 s [] in WDMorphicWindow>enqueueRender
+ 0xf3ad298 s OSWindowRenderThread class>enqueueOperation:blocking:ifError:
+ 0xf3c1fa8 s OSWindowRenderThread class>enqueueOperation:blocking:
+ 0xf3c7ef8 s OSWindowRenderThread class>enqueueOperation:
+ 0xf3c2150 s WDMorphicWindow>enqueueRender
+ 0xf3c7fc0 s WDMorphicWindow>visitWindowFrameEvent:
+ 0xf3ecce0 s WDMorphicOSWindowEventHandler>visitWindowFrameEvent:
+ 0xf3eefc0 s OSWindowFrameEvent>accept:
+ 0xf3f1808 s WDMorphicOSWindowEventHandler(OSWindowEventVisitor)>handleEvent:
+ 0xf414f20 s OSWindowAnimated(OSWindow)>deliverEvent:
+ 0xf4167e0 s OSWindowFrameEvent(OSEvent)>deliver
+ 0xf41ee20 s OSWindowRenderThread class>doAnimationFrameFor:
+ 0xf426b40 s [] in OSWindowRenderThread class>performAnimationFrames
+ 0xf427cd0 s WeakSet>do:
+ 0xf428e20 s OSWindowRenderThread class>performAnimationFrames
+ 0xfc426d8 s OSWindowRenderThread class>renderThreadProcess
+ 0xf7acfc0 s [] in OSWindowRenderThread class>createRenderThread
+ 0xfb88be0 s [] in BlockClosure>newProcess
+
+Most recent primitives
+findContextSuchThat:
+value:
+valueNoContextSwitch
+valueNoContextSwitch
+**StackOverflow**
+at:
+objectAt:
+class
+header
+basicNew:
+stackp:
+at:
+at:put:
+valueNoContextSwitch
+value
+stackp:
+at:put:
+at:
+stackp:
+valueNoContextSwitch
+jump
+jump
+jump
+jump
+stackp:
+at:put:
+at:
+stackp:
+findNextUnwindContextUpTo:
+terminateTo:
+value
+stackp:
+at:put:
+at:
+stackp:
+at:
+value
+at:
+stackp:
+findNextUnwindContextUpTo:
+at:put:
+at:put:
+stackp:
+at:put:
+<
+<
+<
+<
+at:
+stackp:
+at:
+stackp:
+at:put:
+at:
+stackp:
+return:from:
+return:from:
+at:put:
+at:put:
+stackp:
+at:put:
+at:
+class
+noMask:
+numCopiedValues
+stackp:
+numCopiedValues
+basicNew
+priority:
+primitiveResume
+garbageCollectMost
+**IncrementalGC**
+at:put:
+new
+primLowSpaceSemaphore:
+primSignalAtBytesLeft:
+wait
+floatAt:
+floatAt:
+floatAt:
+y
+x
+class
+basicNew
+floatAt:put:
+floatAt:put:
+floatAt:put:
+floatAt:
+floatAt:
+floatAt:
+class
+bitAnd:
+fromHandle:
+fromHandle:
+fromHandle:
+fromHandle:
+floatAt:
+z
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+newX:y:z:
+newX:y:z:
+floatAt:put:
+floatAt:put:
+floatAt:put:
+floatAt:
+floatAt:
+floatAt:
+floatAt:put:
+floatAt:put:
+floatAt:put:
+basicNew:
+floatAt:
+class
+floatAt:put:
+floatAt:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+class
+new
+new
+new
+class
+numRows
+value:value:
+class
+floatAt:
+floatAt:put:
+value:value:
+value:value:
+value:value:
+value:value:
+value:value:
+value:value:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+size
+size
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+invokeWithArguments:
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 3036
+
+	(Segmentation fault)
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff941c24 ebx 0xff941b40 ecx 0xff941bd8 edx 0xff941b8c
+	edi 0xff941a10 esi 0xff941a10 ebp 0xff941aa8 esp 0xff941af4
+	eip 0xff941d08
+
+Segmentation fault Tue Aug  2 12:21:01 2016
+
+
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff934664 ebx 0xff934580 ecx 0xff934618 edx 0xff9345cc
+	edi 0xff934450 esi 0xff934450 ebp 0xff9344e8 esp 0xff934534
+	eip 0xff934748
+*[0xff934748]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c76]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/lib/i386-linux-gnu/libgcc_s.so.1(_Unwind_Backtrace+0x60)[0xf70ad900]
+/lib/i386-linux-gnu/libc.so.6(backtrace+0x75)[0xf765ed75]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7790420]
+/lib/i386-linux-gnu/libgcc_s.so.1(+0x14a8e)[0xf70aca8e]
+/home/falindir/Falindir/Compo/save/v13/pharo5.0/bin/pharo(popOutputFile+0x7d)[0x80bc05d]
+
+
+Smalltalk stack dump:
+0xff94cd3c I UFFIOpenGL>uniformMatrix3fv_location:count:transpose:value: 0xfcca788: a(n) UFFIOpenGL
+0xff94cd70 I WDGLProgram>uniform:mat3: 0xfcc1ae8: a(n) WDGLProgram
+0xff94cda0 I [] in WDGLRenderer>uniform:mat3: 0xfcd3708: a(n) WDGLRenderer
+0xff94cdc0 I WDGLRenderer>uniform:block: 0xfcd3708: a(n) WDGLRenderer
+0xff94cde8 I WDGLRenderer>uniform:mat3: 0xfcd3708: a(n) WDGLRenderer
+0xff94ce10 I WDGLRenderer>updateModelNormalMatrix 0xfcd3708: a(n) WDGLRenderer
+ 0xf75c2e8 s WDGLRenderer>modelMatrix:
+ 0xf4d4ca8 s WDBaseMeshRenderable(WDMeshRenderable)>render:modelMatrix:
+ 0xf491d18 s WDSinglePassSceneRenderer(WDSceneRenderer)>renderElement:transform:
+ 0xf46bab8 s [] in WDSinglePassSceneRenderer(WDSceneRenderer)>performRenderPass
+ 0xe424008 s OrderedCollection>do:
+ 0xe61d040 s WDSinglePassSceneRenderer(WDSceneRenderer)>performRenderPass
+ 0xead0bd0 s WDSinglePassSceneRenderer>performRendering
+ 0xefbefd0 s WDSinglePassSceneRenderer(WDSceneRenderer)>render:
+ 0xf020da0 s WDSinglePassSceneRenderer(WDSceneRenderer)>render
+ 0xf0d9b08 s WDSinglePassSceneRenderer(WDSceneRenderer)>renderScene
+ 0xf1d51b0 s RWViewWindow>renderNoStereo
+ 0xf256468 s RWViewWindow>render
+ 0xf2e9620 s WDMorphicWindow>render
+ 0xf396108 s [] in WDMorphicWindow>enqueueRender
+ 0xf3ad298 s OSWindowRenderThread class>enqueueOperation:blocking:ifError:
+ 0xf3c1fa8 s OSWindowRenderThread class>enqueueOperation:blocking:
+ 0xf3c7ef8 s OSWindowRenderThread class>enqueueOperation:
+ 0xf3c2150 s WDMorphicWindow>enqueueRender
+ 0xf3c7fc0 s WDMorphicWindow>visitWindowFrameEvent:
+ 0xf3ecce0 s WDMorphicOSWindowEventHandler>visitWindowFrameEvent:
+ 0xf3eefc0 s OSWindowFrameEvent>accept:
+ 0xf3f1808 s WDMorphicOSWindowEventHandler(OSWindowEventVisitor)>handleEvent:
+ 0xf414f20 s OSWindowAnimated(OSWindow)>deliverEvent:
+ 0xf4167e0 s OSWindowFrameEvent(OSEvent)>deliver
+ 0xf41ee20 s OSWindowRenderThread class>doAnimationFrameFor:
+ 0xf426b40 s [] in OSWindowRenderThread class>performAnimationFrames
+ 0xf427cd0 s WeakSet>do:
+ 0xf428e20 s OSWindowRenderThread class>performAnimationFrames
+ 0xfc426d8 s OSWindowRenderThread class>renderThreadProcess
+ 0xf7acfc0 s [] in OSWindowRenderThread class>createRenderThread
+ 0xfb88be0 s [] in BlockClosure>newProcess
+
+Most recent primitives
+findContextSuchThat:
+value:
+valueNoContextSwitch
+valueNoContextSwitch
+**StackOverflow**
+at:
+objectAt:
+class
+header
+basicNew:
+stackp:
+at:
+at:put:
+valueNoContextSwitch
+value
+stackp:
+at:put:
+at:
+stackp:
+valueNoContextSwitch
+jump
+jump
+jump
+jump
+stackp:
+at:put:
+at:
+stackp:
+findNextUnwindContextUpTo:
+terminateTo:
+value
+stackp:
+at:put:
+at:
+stackp:
+at:
+value
+at:
+stackp:
+findNextUnwindContextUpTo:
+at:put:
+at:put:
+stackp:
+at:put:
+<
+<
+<
+<
+at:
+stackp:
+at:
+stackp:
+at:put:
+at:
+stackp:
+return:from:
+return:from:
+at:put:
+at:put:
+stackp:
+at:put:
+at:
+class
+noMask:
+numCopiedValues
+stackp:
+numCopiedValues
+basicNew
+priority:
+primitiveResume
+garbageCollectMost
+**IncrementalGC**
+at:put:
+new
+primLowSpaceSemaphore:
+primSignalAtBytesLeft:
+wait
+floatAt:
+floatAt:
+floatAt:
+y
+x
+class
+basicNew
+floatAt:put:
+floatAt:put:
+floatAt:put:
+floatAt:
+floatAt:
+floatAt:
+class
+bitAnd:
+fromHandle:
+fromHandle:
+fromHandle:
+fromHandle:
+floatAt:
+z
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+floatAt:
+newX:y:z:
+newX:y:z:
+floatAt:put:
+floatAt:put:
+floatAt:put:
+floatAt:
+floatAt:
+floatAt:
+floatAt:put:
+floatAt:put:
+floatAt:put:
+basicNew:
+floatAt:
+class
+floatAt:put:
+floatAt:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+atRow:column:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+class
+new
+new
+new
+class
+numRows
+value:value:
+class
+floatAt:
+floatAt:put:
+value:value:
+value:value:
+value:value:
+value:value:
+value:value:
+value:value:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+value:value:
+floatAt:
+floatAt:put:
+size
+size
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+at:
+at:put:
+invokeWithArguments:
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 3036
+
+	(Segmentation fault)
