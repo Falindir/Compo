@@ -1,0 +1,44 @@
+    \node[draw, circle, minimum size=0.1cm, scale=0.05] at ([xshift=-4.75cm, yshift=-1cm] c_1.north) (p_1_a) {};
+    \node[draw, circle, minimum size=0.1cm, scale=0.05] at ([xshift=-3.75cm, yshift=-1cm] c_1.north) (p_1_b) {};
+    \node[draw, circle, minimum size=0.1cm, scale=0.05] at ([xshift=-4.25cm, yshift=-1cm] c_1.north) (p_1_i) {};
+    \node[draw=none] at ([xshift=-4.65cm, yshift=-0.7cm] c_1.north) {\tiny name of port interne required};
+    \draw[-] (p_1_a) -- (p_1_b) node {};
+
+
+\draw (p_int_req_1_b) .. controls ( p_ext_pro_9_c |- p_int_req_1_b) and ( p_int_req_1_b |- p_ext_pro_9_c ) .. (p_ext_pro_9_c);
+
+\draw (p_ext_pro_20_c) .. controls ( \bx * -1, \ay ) and ( \bx * 2, \by) .. (p_ext_req_8_b);
+
+new: anPort owner: anVComponent
+	| s connectedP interface |
+	
+	s := super new: anPort.
+	s ownerElement: anVComponent.
+	s nameElement: (anPort primitive_getPortName getConnectedPort owner asString).
+	s isProvidedPort: (anPort isKindOf: SProvidedPort).
+	s isInternalPort: ((anPort primitive_getPortVisibility getConnectedPort owner) == #internal).
+		
+	interface := anPort primitive_getPortInterface getConnectedPort owner.
+	interface isArray 
+		ifTrue: [ s interfacePort: '*' ]
+		ifFalse: [ 	(self isInterfaceComponent: interface )
+							ifTrue: [s interfacePort: (interface asString)]
+							ifFalse: [s interfacePort: '*']].
+	
+	connectedP := anPort primitive_getPortConnectedPorts getConnectedPort.
+	self breck.
+	connectedP isEmpty
+		ifTrue: [ s isConnectedPort: false. s componentConnected: nil.]
+		ifFalse: [ s isConnectedPort: true. 
+					 ( s isDelegated: (connectedP at: 1) origin: anPort)
+						ifTrue: [ s componentConnected: (VPort new: (connectedP at: 1) owner: nil) ]
+						ifFalse: [ s componentConnected: (VComponent new: ((connectedP at: 1) instVarNamed: #owner)).  
+							(VComponent isFather: (anVComponent compoElement ) child: (s componentConnected compoElement))
+								ifTrue: [ anVComponent addChild: s componentConnected. s componentConnected ownerElement: anVComponent  ].
+							].
+				s connection: (VConnection new: s source: anPort destination: (connectedP at: 1)).
+			].
+		
+	
+	
+	^s.
