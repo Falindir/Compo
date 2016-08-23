@@ -1,0 +1,1 @@
+| cmp |cmp := (VComponent new: ((ContainerPH5 newC) instVarNamed: #owner)) .cmp isRoot: true.LatexFactory createComponent: cmp.^cmp.LatexGeneratorFullMode generate: cmp.CompoBrowser open.LatexGeneratorFullMode generate: (VComponent new: ((ContainerPH5 newC) instVarNamed: #owner)).
