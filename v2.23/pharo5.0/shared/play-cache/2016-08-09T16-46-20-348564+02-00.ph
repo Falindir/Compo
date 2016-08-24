@@ -1,0 +1,1 @@
+| cb cbt |"ChangesBrowser new open."cbt := ChangesBrowserTest new setUp.cbt testChanges.cbt open.
