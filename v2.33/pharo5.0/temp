@@ -1,0 +1,18 @@
+visitSequenceNode: t1 
+		| t2 |
+	
+	t2 := localNames copy.
+	t1 temporaries
+		do: [:t3 | localNames add: t3 name].
+	self formatMethodCommentFor: t1 indentBefore: false.
+	self formatTemporariesFor: t1.
+	self formatStatementsFor: t1.
+	localNames := t2 copy
+
+
+serviceSign
+	^ compoIdent , $( asParser compoToken
+		,
+			(compoIdent , $: asParser compoToken , (compoIdent / serviceSignsList)
+				, ('by' asParser compoToken , ('require' asParser compoToken / 'provide' asParser compoToken)) optional delimitedBy: commaToken) withoutSeparators
+				optional , $) asParser compoToken

@@ -1,0 +1,1 @@
+(ConfigurationOfOSWindow project version: #stable) load: 'WithOpenGLAndExamples'.
