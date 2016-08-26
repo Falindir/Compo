@@ -1,0 +1,1 @@
+'totot' isKindOf: String.Boolean
