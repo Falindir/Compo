@@ -1,0 +1,1 @@
+| t p |t := 'Descriptor Rip2PH5 extends Component {	provides {		default : {			main();			foo();		}	}		service main () {		Transcript.show(''test2'');		self.foo();		}		service foo () { 			Transcript.show(''test1'');	}	}'.t := CompoToSmalltalk convert: t.t. 

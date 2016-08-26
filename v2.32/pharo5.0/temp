@@ -1,0 +1,10 @@
+visitSequenceNode: t1 
+		| t2 |
+	
+	t2 := localNames copy.
+	t1 temporaries
+		do: [:t3 | localNames add: t3 name].
+	self formatMethodCommentFor: t1 indentBefore: false.
+	self formatTemporariesFor: t1.
+	self formatStatementsFor: t1.
+	localNames := t2 copy

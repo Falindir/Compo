@@ -1,0 +1,2673 @@
+
+Segmentation fault Mon Aug  1 16:55:15 2016
+
+
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff85cc24 ebx 0xff85cb40 ecx 0xff85cbd8 edx 0xff85cb8c
+	edi 0xff85ca10 esi 0xff85ca10 ebp 0xff85caa8 esp 0xff85caf4
+	eip 0xff85cd08
+*[0xff85cd08]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8083515]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8099865]
+[0x9bbe5ce]
+[0x9bf9cc6]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9b00b50]
+[0xb23a192]
+[0xb23a39a]
+[0x9bd4830]
+[0x9b0a324]
+[0x9b00b50]
+[0xb2f04d1]
+[0xb23a085]
+[0x9b00b20]
+/lib/i386-linux-gnu/libc.so.6(_IO_file_fopen+0x12b)[0xf761187b]
+
+Segmentation fault Mon Aug  1 16:55:15 2016
+
+
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff85b5e4 ebx 0xff85b500 ecx 0xff85b598 edx 0xff85b54c
+	edi 0xff85b3d0 esi 0xff85b3d0 ebp 0xff85b468 esp 0xff85b4b4
+	eip 0xff85b6c8
+*[0xff85b6c8]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80793f1]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8087fb7]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809ef72]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809f041]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809f0ba]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0a25]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8083515]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8099865]
+[0x9bbe5ce]
+[0x9bf9cc6]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9b00b50]
+[0xb23a192]
+[0xb23a39a]
+[0x9bd4830]
+[0x9b0a324]
+[0x9b00b50]
+[0xb2f04d1]
+[0xb23a085]
+[0x9b00b20]
+[0x0]
+
+Most recent primitives
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**IncrementalGC**
+primUTCMicrosecondsClock
+
+
+
+
+
+primSignal:atUTCMicroseconds:
+
+
+invokeWithArguments:
+
+primUTCMicrosecondsClock
+
+
+
+
+
+primSignal:atUTCMicroseconds:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sizeFieldPut:
+addressFieldPut:
+unsignedLongAt:
+
+unsignedLongAt:
+
+sizeFieldPut:
+addressFieldPut:
+**StackOverflow**
+
+**StackOverflow**
+signedLongAt:
+**StackOverflow**
+
+
+**StackOverflow**
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+**PrimitiveFailure**
+**StackOverflow**
+
+
+
+
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+signedLongAt:put:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+unsignedLongAt:put:
+primReturnAs:fromContext:
+**PrimitiveFailure**
+
+
+**StackOverflow**
+
+findNextHandlerOrSignalingContext
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 2976
+
+	(Segmentation fault)
+
+
+Smalltalk stack dump:
+0xff8b5ab0 M 
+Segmentation fault Mon Aug  1 16:55:15 2016
+
+
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff85b5e4 ebx 0xff85b500 ecx 0xff85b598 edx 0xff85b54c
+	edi 0xff85b3d0 esi 0xff85b3d0 ebp 0xff85b468 esp 0xff85b4b4
+	eip 0xff85b6c8
+*[0xff85b6c8]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c76]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80793f1]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8087fb7]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809ef72]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809f041]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x809f0ba]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0a25]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77cf420]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8083515]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x8099865]
+[0x9bbe5ce]
+[0x9bf9cc6]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9bf9d10]
+[0x9b00b50]
+[0xb23a192]
+[0xb23a39a]
+[0x9bd4830]
+[0x9b0a324]
+[0x9b00b50]
+[0xb2f04d1]
+[0xb23a085]
+[0x9b00b20]
+[0x0]
+
+Most recent primitives
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**IncrementalGC**
+primUTCMicrosecondsClock
+
+
+
+
+
+primSignal:atUTCMicroseconds:
+
+
+invokeWithArguments:
+
+primUTCMicrosecondsClock
+
+
+
+
+
+primSignal:atUTCMicroseconds:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sizeFieldPut:
+addressFieldPut:
+unsignedLongAt:
+
+unsignedLongAt:
+
+sizeFieldPut:
+addressFieldPut:
+**StackOverflow**
+
+**StackOverflow**
+signedLongAt:
+**StackOverflow**
+
+
+**StackOverflow**
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+**PrimitiveFailure**
+**StackOverflow**
+
+
+
+
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+signedLongAt:put:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+unsignedLongAt:put:
+primReturnAs:fromContext:
+**PrimitiveFailure**
+
+
+**StackOverflow**
+
+findNextHandlerOrSignalingContext
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 2976
+
+	(Segmentation fault)
+
+Segmentation fault Mon Aug  1 18:33:36 2016
+
+
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xffe4f224 ebx 0xffe4f140 ecx 0xffe4f1d8 edx 0xffe4f18c
+	edi 0xffe4f010 esi 0xffe4f010 ebp 0xffe4f0a8 esp 0xffe4f0f4
+	eip 0xffe4f308
+*[0xffe4f308]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80c0c63]
+[0xf774b420]
+/lib/i386-linux-gnu/libc.so.6(+0x12d369)[0xf764b369]
+/usr/lib/i386-linux-gnu/dri/nouveau_dri.so(+0x1477d2)[0xf64ec7d2]
+/usr/lib/i386-linux-gnu/dri/nouveau_dri.so(+0xbb085)[0xf6460085]
+/usr/lib/i386-linux-gnu/dri/nouveau_dri.so(+0xbb247)[0xf6460247]
+/home/falindir/Falindir/Compo/save/v12/pharo5.0/bin/pharo[0x80e7eab]
+[0x8f00bb0]
+[0x8fcf723]
+[0x8f0d6c3]
+[0x8f0384c]
+[0x8f0b949]
+[0x8f037e1]
+[0x8f0d631]
+[0x8f17c11]
+[0x8f1a611]
+[0x8f1a78c]
+[0x8f18fce]
+[0x8f1a6b3]
+[0x8f1a55f]
+[0x8f1a2f6]
+[0x8f1a211]
+[0x8f1a196]
+[0x8f1a116]
+[0x8f1a07e]
+[0x8f19f6f]
+[0x8f075a6]
+[0x8f03c3e]
+[0x8f080c3]
+[0x8f03a87]
+[0x8f03daf]
+[0x8f00b50]
+[0xa3158c5]
+[0x8f00b20]
+[0xffe4ddfb]
+
+
+Smalltalk stack dump:
+0xffe671b0 M UFFIOpenGL>readPixels_x:y:width:height:format:type:pixels: 0xee848e0: a(n) UFFIOpenGL
+0xffe671e4 M WDGLRenderer>readFrameBufferIntoForm: 0xee78b60: a(n) WDGLRenderer
+0xffe67204 M [] in WDMorphicWindow>readRenderedFrame 0xe90e678: a(n) WDMorphicWindow
+0xffe67224 M [] in Semaphore>critical: 0xe140330: a(n) Semaphore
+0xffe67244 M BlockClosure>ensure: 0x928fc10: a(n) BlockClosure
+0xffe67264 M Semaphore>critical: 0xe140330: a(n) Semaphore
+0xffe67284 M WDMorphicWindow>readRenderedFrame 0xe90e678: a(n) WDMorphicWindow
+0xffe6729c M WDMorphicWindow>render 0xe90e678: a(n) WDMorphicWindow
+0xffe672b4 M [] in WDMorphicWindow>enqueueRender 0xe90e678: a(n) WDMorphicWindow
+0xffe672d0 M OSWindowRenderThread class>enqueueOperation:blocking:ifError: 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe672f4 M OSWindowRenderThread class>enqueueOperation:blocking: 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67314 M OSWindowRenderThread class>enqueueOperation: 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67330 M WDMorphicWindow>enqueueRender 0xe90e678: a(n) WDMorphicWindow
+0xffe67348 M WDMorphicWindow>visitWindowFrameEvent: 0xe90e678: a(n) WDMorphicWindow
+0xffe67364 M WDMorphicOSWindowEventHandler>visitWindowFrameEvent: 0xee78b50: a(n) WDMorphicOSWindowEventHandler
+0xffe67380 M OSWindowFrameEvent>accept: 0x9257db8: a(n) OSWindowFrameEvent
+0xffe6739c M WDMorphicOSWindowEventHandler(OSWindowEventVisitor)>handleEvent: 0xee78b50: a(n) WDMorphicOSWindowEventHandler
+0xffe673b8 M OSWindowAnimated(OSWindow)>deliverEvent: 0xe140828: a(n) OSWindowAnimated
+0xffe673d4 M OSWindowFrameEvent(OSEvent)>deliver 0x9257db8: a(n) OSWindowFrameEvent
+0xffe673ec M OSWindowRenderThread class>doAnimationFrameFor: 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe6740c M [] in OSWindowRenderThread class>performAnimationFrames 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67434 M WeakSet>do: 0x9257c80: a(n) WeakSet
+0xffe67454 M OSWindowRenderThread class>performAnimationFrames 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67470 M OSWindowRenderThread class>renderThreadProcess 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe67490 I [] in OSWindowRenderThread class>createRenderThread 0xa03e2f8: a(n) OSWindowRenderThread class
+0xffe674b0 I [] in BlockClosure>newProcess 0xd2f79a8: a(n) BlockClosure
+
+Most recent primitives
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+allocate:
+integerAt:put:size:signed:
+invokeWithArguments:
+free
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+millisecondClockValue
+wait
+invokeWithArguments:
+allocate:
+integerAt:put:size:signed:
+invokeWithArguments:
+free
+size
+basicNew:
+decompress:fromByteArray:at:
+primUTCMicrosecondsClock
+>=
+signal
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+instVarAt:
+invokeWithArguments:
+signal
+primUTCMicrosecondsClock
++
+<
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+wait
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+basicNew:
+compress:toByteArray:
+basicNew:
+replaceFrom:to:with:startingAt:
+basicNew:
+compress:toByteArray:
+primUTCMicrosecondsClock
+>=
+signal
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+instVarAt:
+invokeWithArguments:
+signal
+primUTCMicrosecondsClock
++
+<
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+wait
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 2984
+
+	(Segmentation fault)
+
+Segmentation fault Wed Aug  3 12:37:14 2016
+
+
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v16/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xffcbbfe4 ebx 0xffcbbf00 ecx 0xffcbbf98 edx 0xffcbbf4c
+	edi 0xffcbbdd0 esi 0xffcbbdd0 ebp 0xffcbbe68 esp 0xffcbbeb4
+	eip 0xffcbc0c8
+*[0xffcbc0c8]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7779420]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x8095aa3]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo(ceSendFromInLineCacheMiss+0x126)[0x80af886]
+[0x990c7f3]
+[0x9903145]
+[0x9900b20]
+/lib/i386-linux-gnu/libc.so.6(+0xa8e41)[0xf75f4e41]
+
+
+Smalltalk stack dump:
+0xffcc103c M DelayExperimentalSpinScheduler(DelayMicrosecondScheduler)>handleTimerEvent: 0xb6a3760: a(n) DelayExperimentalSpinScheduler
+0xffcc1060 M DelayExperimentalSpinScheduler(DelayMicrosecondScheduler)>runTimerEventLoop 0xb6a3760: a(n) DelayExperimentalSpinScheduler
+ 0xacf12d0 s [] in DelayExperimentalSpinScheduler(DelayMicrosecondScheduler)>startTimerEventLoop
+ 0xb753b80 s [] in BlockClosure>newProcess
+
+Most recent primitives
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+**StackOverflow**
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+**StackOverflow**
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+allocate:
+integerAt:put:size:signed:
+invokeWithArguments:
+free
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+**StackOverflow**
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+millisecondClockValue
+wait
+invokeWithArguments:
+allocate:
+integerAt:put:size:signed:
+invokeWithArguments:
+free
+basicNew
+basicNew:
+decompress:fromByteArray:at:
+primUTCMicrosecondsClock
+>=
+signal
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+instVarAt:
+invokeWithArguments:
+signal
+primUTCMicrosecondsClock
++
+<
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+wait
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+basicNew:
+compress:toByteArray:
+basicNew:
+replaceFrom:to:with:startingAt:
+compress:toByteArray:
+primUTCMicrosecondsClock
+>=
+signal
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+instVarAt:
+invokeWithArguments:
+signal
+primUTCMicrosecondsClock
++
+<
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+wait
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+primUTCMicrosecondsClock
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 2168
+
+	(Segmentation fault)
+
+Segmentation fault Wed Aug  3 13:39:12 2016
+
+
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v16/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xff7960e4 ebx 0xff796000 ecx 0xff796098 edx 0xff79604c
+	edi 0xff795ed0 esi 0xff795ed0 ebp 0xff795f68 esp 0xff795fb4
+	eip 0xff7961c8
+*[0xff7961c8]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77d4420]
+/lib/i386-linux-gnu/libc.so.6(+0x12d369)[0xf76d4369]
+/usr/lib/i386-linux-gnu/dri/nouveau_dri.so(+0x1477d2)[0xf64607d2]
+/usr/lib/i386-linux-gnu/dri/nouveau_dri.so(+0xbb085)[0xf63d4085]
+/usr/lib/i386-linux-gnu/dri/nouveau_dri.so(+0xbb247)[0xf63d4247]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x80e7eab]
+[0x9200bb0]
+[0x9299b2b]
+[0x920b343]
+[0x920393c]
+[0x92065c1]
+[0x92038d1]
+[0x920b2b1]
+[0x920b5b9]
+[0x920bb39]
+[0x920adff]
+[0x9204d1c]
+[0x920ad90]
+[0x92065c1]
+[0x920aca5]
+[0x9204dde]
+[0x920331a]
+[0x9200b50]
+[0xa6158c5]
+[0x9200b20]
+[0x0]
+
+
+Smalltalk stack dump:
+0xff7ab178 M UFFIOpenGL>readPixels_x:y:width:height:format:type:pixels: 0xfadb020: a(n) UFFIOpenGL
+0xff7ab1ac M WDGLRenderer>readFrameBufferIntoForm: 0xf329e00: a(n) WDGLRenderer
+0xff7ab1cc M [] in WDMorphicWindow>readRenderedFrame 0xf31a5f8: a(n) WDMorphicWindow
+0xff7ab1ec M [] in Semaphore>critical: 0xf329eb8: a(n) Semaphore
+0xff7ab20c M BlockClosure>ensure: 0x966bc78: a(n) BlockClosure
+0xff7ab22c M Semaphore>critical: 0xf329eb8: a(n) Semaphore
+0xff7ab24c M WDMorphicWindow>readRenderedFrame 0xf31a5f8: a(n) WDMorphicWindow
+0xff7ab264 M WDMorphicWindow>render 0xf31a5f8: a(n) WDMorphicWindow
+0xff7ab27c M [] in WDMorphicWindow>enqueueRender 0xf31a5f8: a(n) WDMorphicWindow
+0xff7ab294 M [] in OSWindowRenderThreadOperation>execute 0x95849e0: a(n) OSWindowRenderThreadOperation
+0xff7ab2ac M BlockClosure>on:do: 0x9644a38: a(n) BlockClosure
+0xff7ab2cc M [] in OSWindowRenderThreadOperation>execute 0x95849e0: a(n) OSWindowRenderThreadOperation
+0xff7ab2ec M BlockClosure>ensure: 0x96449a8: a(n) BlockClosure
+0xff7ab308 M OSWindowRenderThreadOperation>execute 0x95849e0: a(n) OSWindowRenderThreadOperation
+0xff7ab324 M OSWindowRenderThread class>executeRenderOperations 0xa33e2f8: a(n) OSWindowRenderThread class
+0xff7ab340 M OSWindowRenderThread class>renderThreadProcess 0xa33e2f8: a(n) OSWindowRenderThread class
+0xff7ab360 I [] in OSWindowRenderThread class>createRenderThread 0xa33e2f8: a(n) OSWindowRenderThread class
+0xff7ab380 I [] in BlockClosure>newProcess 0xe2ed000: a(n) BlockClosure
+
+Most recent primitives
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+floatAt:
+floatAt:put:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+**StackOverflow**
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+**StackOverflow**
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+stringHash:initialHash:
+compare:with:collated:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+indexOfAscii:inString:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+stringHash:initialHash:
+stringHash:initialHash:
+compare:with:collated:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+allocate:
+integerAt:put:size:signed:
+invokeWithArguments:
+free
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+**StackOverflow**
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+millisecondClockValue
+class
+perform:with:
+/
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+basicAt:
+bitShiftMagnitude:
+basicAt:
+bitAnd:
+bitShiftMagnitude:
+basicAt:
++
+bitOr:
+digitCompare:
+bitShiftMagnitude:
+bitShiftMagnitude:
+basicNew
+digitCompare:
+<
+quo:
+*
+**PrimitiveFailure**
+*
+-
+*
+*
++
+*
+quo:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+wait
+invokeWithArguments:
+allocate:
+integerAt:put:size:signed:
+invokeWithArguments:
+free
+class
+basicNew
+size
+basicNew:
+decompress:fromByteArray:at:
+primUTCMicrosecondsClock
+>=
+signal
++
+primSignal:atUTCMicroseconds:
+wait
+instVarAt:
+invokeWithArguments:
+signal
+primUTCMicrosecondsClock
++
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+wait
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+compress:toByteArray:
+basicNew:
+compress:toByteArray:
+primGetNextEvent:
+shallowCopy
+shallowCopy
+primGetNextEvent:
+shallowCopy
+shallowCopy
+primGetNextEvent:
+shallowCopy
+shallowCopy
+primGetNextEvent:
+wait
+primGetNextEvent:
+wait
+primGetNextEvent:
+wait
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 2980
+
+	(Segmentation fault)
+
+Segmentation fault Thu Aug  4 11:44:27 2016
+
+
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v16/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xffd78364 ebx 0xffd78280 ecx 0xffd78318 edx 0xffd782cc
+	edi 0xffd78150 esi 0xffd78150 ebp 0xffd781e8 esp 0xffd78234
+	eip 0xffd78448
+*[0xffd78448]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x80c0c63]
+[0xf77a7420]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x80d6720]
+/home/falindir/Falindir/Compo/save/v16/pharo5.0/bin/pharo[0x80d7525]
+[0x9200bb0]
+[0x92d5ebd]
+[0x92d5dd4]
+[0x92c1f08]
+[0x92bf0f6]
+[0x92befe2]
+[0x92bacdc]
+[0x92baf1b]
+[0x92bae8b]
+[0x92bac60]
+[0x9207af4]
+[0x92bab97]
+[0x92be886]
+[0x92be806]
+[0x92be70b]
+[0x92b7967]
+[0x92be6c1]
+[0x92bfcc8]
+[0x92be5f0]
+[0x92bacec]
+[0x92baf1b]
+[0x92bae8b]
+[0x92bac60]
+[0x9207af4]
+[0x9200b20]
+[0x914ec90]
+
+
+Smalltalk stack dump:
+0xffe07170 M GrafPort>copyBits 0x9303be8: a(n) GrafPort
+0xffe07188 M GrafPort>image:at:sourceRect:rule: 0x9303be8: a(n) GrafPort
+0xffe071b0 M FormCanvas>image:at:sourceRect:rule: 0x9303c80: a(n) FormCanvas
+0xffe071dc M TRMorph>drawOn: 0x9301010: a(n) TRMorph
+0xffe071f8 M FormCanvas(Canvas)>draw: 0x9303c80: a(n) FormCanvas
+0xffe07214 M FormCanvas(Canvas)>drawMorph: 0x9303c80: a(n) FormCanvas
+0xffe07234 M [] in TRMorph(Morph)>fullDrawOn: 0x9301010: a(n) TRMorph
+0xffe0724c M FormCanvas>roundCornersOf:in:during: 0x9303c80: a(n) FormCanvas
+0xffe07270 M FormCanvas(Canvas)>roundCornersOf:during: 0x9303c80: a(n) FormCanvas
+0xffe07294 M [] in TRMorph(Morph)>fullDrawOn: 0x9301010: a(n) TRMorph
+0xffe072ac M BlockClosure>on:do: 0x9303d90: a(n) BlockClosure
+0xffe072cc M TRMorph(Morph)>fullDrawOn: 0x9301010: a(n) TRMorph
+0xffe072e8 M FormCanvas(Canvas)>fullDraw: 0x9303c80: a(n) FormCanvas
+0xffe07304 M FormCanvas(Canvas)>fullDrawMorph: 0x9303c80: a(n) FormCanvas
+0xffe07324 M [] in PanelMorph(Morph)>drawSubmorphsOn: 0x9303e20: a(n) PanelMorph
+0xffe07344 M Array(SequenceableCollection)>reverseDo: 0x9303e60: a(n) Array
+0xffe07360 M [] in PanelMorph(Morph)>drawSubmorphsOn: 0x9303e20: a(n) PanelMorph
+0xffe0737c M FormCanvas>clipBy:during: 0x9303ee8: a(n) FormCanvas
+0xffe073a0 M PanelMorph(Morph)>drawSubmorphsOn: 0x9303e20: a(n) PanelMorph
+0xffe073c0 M [] in PanelMorph(Morph)>fullDrawOn: 0x9303e20: a(n) PanelMorph
+0xffe073d8 M FormCanvas>roundCornersOf:in:during: 0x9303ee8: a(n) FormCanvas
+0xffe073fc M FormCanvas(Canvas)>roundCornersOf:during: 0x9303ee8: a(n) FormCanvas
+0xffe07420 M [] in PanelMorph(Morph)>fullDrawOn: 0x9303e20: a(n) PanelMorph
+0xffe07438 M BlockClosure>on:do: 0x9303ff8: a(n) BlockClosure
+0xffe090f0 M PanelMorph(Morph)>fullDrawOn: 0x9303e20: a(n) PanelMorph
+0xffe0910c M FormCanvas(Canvas)>fullDraw: 0x9303ee8: a(n) FormCanvas
+0xffe09128 M FormCanvas(Canvas)>fullDrawMorph: 0x9303ee8: a(n) FormCanvas
+0xffe09148 M [] in LazyTabGroupMorph(Morph)>drawSubmorphsOn: 0x9300e28: a(n) LazyTabGroupMorph
+0xffe09168 M Array(SequenceableCollection)>reverseDo: 0x9304708: a(n) Array
+0xffe09184 M [] in LazyTabGroupMorph(Morph)>drawSubmorphsOn: 0x9300e28: a(n) LazyTabGroupMorph
+0xffe091a4 M LazyTabGroupMorph(Morph)>drawSubmorphsOn: 0x9300e28: a(n) LazyTabGroupMorph
+0xffe091c4 M [] in LazyTabGroupMorph(Morph)>fullDrawOn: 0x9300e28: a(n) LazyTabGroupMorph
+0xffe091dc M FormCanvas>roundCornersOf:in:during: 0x9303ee8: a(n) FormCanvas
+0xffe09200 M FormCanvas(Canvas)>roundCornersOf:during: 0x9303ee8: a(n) FormCanvas
+0xffe09224 M [] in LazyTabGroupMorph(Morph)>fullDrawOn: 0x9300e28: a(n) LazyTabGroupMorph
+0xffe0923c M BlockClosure>on:do: 0x9304878: a(n) BlockClosure
+0xffe0925c M LazyTabGroupMorph(Morph)>fullDrawOn: 0x9300e28: a(n) LazyTabGroupMorph
+0xffe09278 M LazyTabGroupMorph(TabGroupMorph)>fullDrawOn: 0x9300e28: a(n) LazyTabGroupMorph
+0xffe09294 M FormCanvas(Canvas)>fullDraw: 0x9303ee8: a(n) FormCanvas
+0xffe092b0 M FormCanvas(Canvas)>fullDrawMorph: 0x9303ee8: a(n) FormCanvas
+0xffe092d0 M [] in PanelMorph(Morph)>drawSubmorphsOn: 0x10074dd8: a(n) PanelMorph
+0xffe092f0 M Array(SequenceableCollection)>reverseDo: 0x9300e80: a(n) Array
+0xffe0930c M [] in PanelMorph(Morph)>drawSubmorphsOn: 0x10074dd8: a(n) PanelMorph
+0xffe09328 M FormCanvas>clipBy:during: 0x93040e8: a(n) FormCanvas
+0xffe0934c M PanelMorph(Morph)>drawSubmorphsOn: 0x10074dd8: a(n) PanelMorph
+0xffe0936c M [] in PanelMorph(Morph)>fullDrawOn: 0x10074dd8: a(n) PanelMorph
+0xffe09384 M FormCanvas>roundCornersOf:in:during: 0x93040e8: a(n) FormCanvas
+0xffe093a8 M FormCanvas(Canvas)>roundCornersOf:during: 0x93040e8: a(n) FormCanvas
+0xffe093cc M [] in PanelMorph(Morph)>fullDrawOn: 0x10074dd8: a(n) PanelMorph
+0xffe093e4 M BlockClosure>on:do: 0x9304a80: a(n) BlockClosure
+0xffe09404 M PanelMorph(Morph)>fullDrawOn: 0x10074dd8: a(n) PanelMorph
+0xffe09420 M FormCanvas(Canvas)>fullDraw: 0x93040e8: a(n) FormCanvas
+0xffe0943c M FormCanvas(Canvas)>fullDrawMorph: 0x93040e8: a(n) FormCanvas
+0xffe080f0 M [] in PanelMorph(Morph)>drawSubmorphsOn: 0x1004e838: a(n) PanelMorph
+0xffe08110 M Array(SequenceableCollection)>reverseDo: 0x100629a0: a(n) Array
+0xffe0812c M [] in PanelMorph(Morph)>drawSubmorphsOn: 0x1004e838: a(n) PanelMorph
+0xffe08148 M FormCanvas>clipBy:during: 0x93041f0: a(n) FormCanvas
+0xffe0816c M PanelMorph(Morph)>drawSubmorphsOn: 0x1004e838: a(n) PanelMorph
+0xffe0818c M [] in PanelMorph(Morph)>fullDrawOn: 0x1004e838: a(n) PanelMorph
+0xffe081a4 M FormCanvas>roundCornersOf:in:during: 0x93041f0: a(n) FormCanvas
+0xffe081c8 M FormCanvas(Canvas)>roundCornersOf:during: 0x93041f0: a(n) FormCanvas
+0xffe081ec M [] in PanelMorph(Morph)>fullDrawOn: 0x1004e838: a(n) PanelMorph
+0xffe08204 M BlockClosure>on:do: 0x93042f0: a(n) BlockClosure
+0xffe08224 M PanelMorph(Morph)>fullDrawOn: 0x1004e838: a(n) PanelMorph
+0xffe08240 M FormCanvas(Canvas)>fullDraw: 0x93041f0: a(n) FormCanvas
+0xffe0825c M FormCanvas(Canvas)>fullDrawMorph: 0x93041f0: a(n) FormCanvas
+0xffe0827c M [] in GLMSystemWindow(Morph)>drawSubmorphsOn: 0x100477b8: a(n) GLMSystemWindow
+0xffe0829c M Array(SequenceableCollection)>reverseDo: 0x1005b7d8: a(n) Array
+0xffe082b8 M [] in GLMSystemWindow(Morph)>drawSubmorphsOn: 0x100477b8: a(n) GLMSystemWindow
+0xffe082d4 M FormCanvas>clipBy:during: 0x9304410: a(n) FormCanvas
+0xffe082f8 M GLMSystemWindow(Morph)>drawSubmorphsOn: 0x100477b8: a(n) GLMSystemWindow
+0xffe08318 M [] in GLMSystemWindow(Morph)>fullDrawOn: 0x100477b8: a(n) GLMSystemWindow
+0xffe08330 M FormCanvas>roundCornersOf:in:during: 0x9304410: a(n) FormCanvas
+0xffe08354 M FormCanvas(Canvas)>roundCornersOf:during: 0x9304410: a(n) FormCanvas
+0xffe08378 M [] in GLMSystemWindow(Morph)>fullDrawOn: 0x100477b8: a(n) GLMSystemWindow
+0xffe08390 M BlockClosure>on:do: 0x9304510: a(n) BlockClosure
+0xffe083b0 M GLMSystemWindow(Morph)>fullDrawOn: 0x100477b8: a(n) GLMSystemWindow
+0xffe083cc M FormCanvas(Canvas)>fullDraw: 0x9304410: a(n) FormCanvas
+0xffe083e8 M FormCanvas(Canvas)>fullDrawMorph: 0x9304410: a(n) FormCanvas
+0xffe0843c M [] in WorldState>drawWorld:submorphs:invalidAreasOn: 0x9e32ed0: a(n) WorldState
+0xffde81d4 M Rectangle>allAreasOutsideList:startingAt:do: 0x9303488: a(n) Rectangle
+0xffde81f8 M Rectangle>allAreasOutsideList:do: 0x9303488: a(n) Rectangle
+0xffde8234 M [] in WorldState>drawWorld:submorphs:invalidAreasOn: 0x9e32ed0: a(n) WorldState
+0xffde8258 M Array(SequenceableCollection)>do: 0x93036a0: a(n) Array
+0xffde8288 M WorldState>drawWorld:submorphs:invalidAreasOn: 0x9e32ed0: a(n) WorldState
+0xffde82c0 M [] in WorldState>displayWorld:submorphs: 0x9e32ed0: a(n) WorldState
+0xffde82d8 M FormCanvas>roundCornersOf:in:during: 0xe643540: a(n) FormCanvas
+0xffde82fc M FormCanvas(Canvas)>roundCornersOf:during: 0xe643540: a(n) FormCanvas
+0xffde8324 M WorldState>displayWorld:submorphs: 0x9e32ed0: a(n) WorldState
+0xffde8344 M WorldMorph>displayWorld 0xa0b6628: a(n) WorldMorph
+0xffde8360 M [] in WorldState>displayWorldSafely: 0x9e32ed0: a(n) WorldState
+0xffde8378 M BlockClosure>on:do: 0x9303840: a(n) BlockClosure
+0xffde8398 M BlockClosure>ifError: 0x9303840: a(n) BlockClosure
+0xffde83b4 M WorldState>displayWorldSafely: 0x9e32ed0: a(n) WorldState
+0xffde83d0 M WorldState>doOneCycleNowFor: 0x9e32ed0: a(n) WorldState
+0xffde83ec M WorldState>doOneCycleFor: 0x9e32ed0: a(n) WorldState
+0xffde8408 M WorldMorph>doOneCycle 0xa0b6628: a(n) WorldMorph
+0xffde8420 M [] in MorphicUIManager>spawnNewProcess 0xe64c7b8: a(n) MorphicUIManager
+0xffde8440 I [] in BlockClosure>newProcess 0xe2ce640: a(n) BlockClosure
+
+Most recent primitives
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+instVarAt:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+shallowCopy
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+@
+**PrimitiveFailure**
+@
+invokeWithArguments:
+@
+@
+invokeWithArguments:
+invokeWithArguments:
+@
+findFirstInString:inSet:startingAt:
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+integerAt:put:size:signed:
+instVarAt:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+instVarAt:put:
+instVarAt:
+allocate:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+clone
+basicIdentityHash
+wait
+basicIdentityHash
+basicNew:
+**StackOverflow**
+basicNew:
+signal
+invokeWithArguments:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+@
+replaceFrom:to:with:startingAt:
+replaceFrom:to:with:startingAt:
+**StackOverflow**
+stringHash:initialHash:
+compare:with:collated:
+compare:with:collated:
+compare:with:collated:
+stringHash:initialHash:
+compare:with:collated:
+stringHash:initialHash:
+stringHash:initialHash:
+stringHash:initialHash:
+stringHash:initialHash:
+stringHash:initialHash:
+stringHash:initialHash:
+stringHash:initialHash:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+instVarAt:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+@
+invokeWithArguments:
+invokeWithArguments:
+@
+invokeWithArguments:
+invokeWithArguments:
+@
+@
+invokeWithArguments:
+invokeWithArguments:
+@
+@
+@
+@
+@
+copyBits
+invokeCallbackContext:
+sizeFieldPut:
+addressFieldPut:
+unsignedLongAt:
+unsignedLongAt:
+sizeFieldPut:
+addressFieldPut:
+**StackOverflow**
+**StackOverflow**
+signedLongAt:
+**StackOverflow**
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+basicNew:
+unsignedByteAt:
+**IncrementalGC**
+primUTCMicrosecondsClock
+>=
+signal
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+instVarAt:
+invokeWithArguments:
+signal
+primUTCMicrosecondsClock
++
+<
+>=
++
+<
+primSignal:atUTCMicroseconds:
+wait
+wait
+wait
+wait
+signal
+wait
+signal
+wait
+signal
+wait
+signal
+wait
+signal
+wait
+replaceFrom:to:with:startingAt:
+signal
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+free
+wait
+signal
+signal
+wait
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+valueWithArguments:
+**PrimitiveFailure**
+**StackOverflow**
+basicNew:
+stackp:
+stackp:
+at:put:
+at:put:
+at:put:
+at:put:
+at:put:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+unsignedLongAt:put:
+primReturnAs:fromContext:
+invokeCallbackContext:
+sizeFieldPut:
+addressFieldPut:
+unsignedLongAt:
+unsignedLongAt:
+sizeFieldPut:
+addressFieldPut:
+**StackOverflow**
+signedLongAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+signedLongAt:
+signedLongAt:
+signedLongAt:
+signedLongAt:
+valueWithArguments:
+**PrimitiveFailure**
+basicNew:
+stackp:
+stackp:
+at:put:
+at:put:
+at:put:
+at:put:
+at:put:
+at:put:
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+>=
+unsignedLongAt:put:
+primReturnAs:fromContext:
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 1816
+
+	(Segmentation fault)
+
+Segmentation fault Tue Aug 16 12:12:58 2016
+
+
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v31/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xffd9b1a4 ebx 0xffd9b0c0 ecx 0xffd9b158 edx 0xffd9b10c
+	edi 0xffd9af90 esi 0xffd9af90 ebp 0xffd9b028 esp 0xffd9b074
+	eip 0xffd9b288
+*[0xffd9b288]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7754420]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x8083515]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x8099865]
+[0x8576bd6]
+[0x85fa3fe]
+[0x85fa448]
+[0x85fa448]
+[0x8500b20]
+/lib/i386-linux-gnu/libc.so.6(+0x1ab450)[0xf76d2450]
+
+Segmentation fault Tue Aug 16 12:12:58 2016
+
+
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v31/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xffd99b64 ebx 0xffd99a80 ecx 0xffd99b18 edx 0xffd99acc
+	edi 0xffd99950 esi 0xffd99950 ebp 0xffd999e8 esp 0xffd99a34
+	eip 0xffd99c48
+*[0xffd99c48]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7754420]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80793f1]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x8087fb7]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x809ef72]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x809f041]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x809f0ba]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0a25]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7754420]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x8083515]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x8099865]
+[0x8576bd6]
+[0x85fa3fe]
+[0x85fa448]
+[0x85fa448]
+[0x8500b20]
+[0x442]
+
+Most recent primitives
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+
+invokeWithArguments:
+**StackOverflow**
+
+
+invokeWithArguments:
+**StackOverflow**
+**StackOverflow**
+invokeWithArguments:
+
+
+**StackOverflow**
+
+
+integerAt:put:size:signed:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+
+allocate:
+**StackOverflow**
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+clone
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+
+**StackOverflow**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+**StackOverflow**
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+**PrimitiveFailure**
+
+invokeWithArguments:
+**StackOverflow**
+
+
+invokeWithArguments:
+**StackOverflow**
+**StackOverflow**
+invokeWithArguments:
+
+
+**StackOverflow**
+
+
+integerAt:put:size:signed:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+
+allocate:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+clone
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+
+
+
+**StackOverflow**
+
+
+
+
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+
+
+invokeWithArguments:
+invokeWithArguments:
+
+
+
+
+
+
+invokeCallbackContext:
+sizeFieldPut:
+addressFieldPut:
+**IncrementalGC**
+unsignedLongAt:
+unsignedLongAt:
+sizeFieldPut:
+addressFieldPut:
+signedLongAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+**PrimitiveFailure**
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+unsignedLongAt:put:
+primReturnAs:fromContext:
+**PrimitiveFailure**
+
+
+findNextHandlerOrSignalingContext
+
+
+
+
+
+
+
+
+**StackOverflow**
+
+**StackOverflow**
+
+
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 1864
+
+	(Segmentation fault)
+
+
+Smalltalk stack dump:
+0xffe3a1a8 M 
+Segmentation fault Tue Aug 16 12:12:58 2016
+
+
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo
+pharo VM version: 5.0 #1 Wed May  4 11:54:28 CEST 2016 gcc 4.6.3 [Production Spur ITHB VM]
+Built from: CoInterpreter VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+With: StackToRegisterMappingCogit VMMaker.oscog-eem.1855 uuid: d8e4a3c2-a3bf-4adc-b224-8012903a1ef4 May  4 2016
+Revision: https://github.com/pharo-project/pharo-vm.git Commit: b8ec25a570d7539653e1d793e97609adb509aaed Date: 2016-05-04 11:14:22 +0200 By: Esteban Lorenzano <estebanlm@gmail.com> Jenkins build #589
+Build host: Linux pharo-linux 3.2.0-31-generic-pae #50-Ubuntu SMP Fri Sep 7 16:39:45 UTC 2012 i686 i686 i386 GNU/Linux
+plugin path: /home/falindir/Falindir/Compo/save/v31/pharo5.0/bin [default: /home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/]
+
+
+C stack backtrace & registers:
+	eax 0xffd99b64 ebx 0xffd99a80 ecx 0xffd99b18 edx 0xffd99acc
+	edi 0xffd99950 esi 0xffd99950 ebp 0xffd999e8 esp 0xffd99a34
+	eip 0xffd99c48
+*[0xffd99c48]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0912]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0c76]
+[0xf7754420]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80793f1]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x8087fb7]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x809ef72]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x809f041]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x809f0ba]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0a25]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x80c0c63]
+[0xf7754420]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x8083515]
+/home/falindir/Falindir/Compo/save/v31/pharo5.0/bin/pharo[0x8099865]
+[0x8576bd6]
+[0x85fa3fe]
+[0x85fa448]
+[0x85fa448]
+[0x8500b20]
+[0x442]
+
+Most recent primitives
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+
+invokeWithArguments:
+**StackOverflow**
+
+
+invokeWithArguments:
+**StackOverflow**
+**StackOverflow**
+invokeWithArguments:
+
+
+**StackOverflow**
+
+
+integerAt:put:size:signed:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+
+allocate:
+**StackOverflow**
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+clone
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+
+**StackOverflow**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+**StackOverflow**
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+**PrimitiveFailure**
+
+invokeWithArguments:
+**StackOverflow**
+
+
+invokeWithArguments:
+**StackOverflow**
+**StackOverflow**
+invokeWithArguments:
+
+
+**StackOverflow**
+
+
+integerAt:put:size:signed:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+
+allocate:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+clone
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+integerAt:size:signed:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+
+
+
+**StackOverflow**
+
+
+
+
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+doubleAt:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+
+invokeWithArguments:
+invokeWithArguments:
+
+
+invokeWithArguments:
+invokeWithArguments:
+
+
+
+
+
+
+invokeCallbackContext:
+sizeFieldPut:
+addressFieldPut:
+**IncrementalGC**
+unsignedLongAt:
+unsignedLongAt:
+sizeFieldPut:
+addressFieldPut:
+signedLongAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+unsignedByteAt:
+
+**PrimitiveFailure**
+
+
+
+
+
+
+
+
+
+invokeWithArguments:
+integerAt:put:size:signed:
+invokeWithArguments:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+integerAt:put:size:signed:
+unsignedLongAt:put:
+primReturnAs:fromContext:
+**PrimitiveFailure**
+
+
+findNextHandlerOrSignalingContext
+
+
+
+
+
+
+
+
+**StackOverflow**
+
+**StackOverflow**
+
+
+
+stack page bytes 4096 available headroom 2788 minimum unused headroom 1864
+
+	(Segmentation fault)
