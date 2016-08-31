@@ -1,0 +1,1 @@
+| file |file := LIFOQueue new.file push: 1.file push: 2.file push: 3.file next.file pop.file next.file next.

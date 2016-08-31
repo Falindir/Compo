@@ -1,0 +1,1 @@
+ZnServer startDefaultOn: 8080. ZnServer stopDefault.SUnitTest .	self assert: true.	self deny: false

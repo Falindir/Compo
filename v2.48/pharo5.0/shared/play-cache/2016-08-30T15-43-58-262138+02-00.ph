@@ -1,0 +1,1 @@
+ZnServer startDefaultOn: 8080. ZnServer default logToTranscript.ZnServer stopDefault.

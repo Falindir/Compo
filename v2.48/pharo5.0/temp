@@ -1,0 +1,37 @@
+visitSequenceNode: t1 
+		| t2 |
+	
+	t2 := localNames copy.
+	t1 temporaries
+		do: [:t3 | localNames add: t3 name].
+	self formatMethodCommentFor: t1 indentBefore: false.
+	self formatTemporariesFor: t1.
+	self formatStatementsFor: t1.
+	localNames := t2 copy
+
+
+create: root
+	
+	| elements components |
+	
+	components := OrderedCollection new.
+	elements := OrderedCollection new.
+	
+	components add: root nameElement.
+	
+	self initCollectionComponents: root collection: components.
+	
+	components do: [ :c | 
+			| vCompo elemts cmp |
+			cmp := ((Smalltalk classNamed: (c asSymbol )) newC).
+			(cmp isKindOf: AtomicPort)
+				ifTrue: [ vCompo := VLitteral new: ( cmp instVarNamed: #owner). ]
+				ifFalse: [ vCompo := VComponent new: ( cmp instVarNamed: #owner). ].
+			elemts := OrderedCollection new.
+			elemts addAll: (LatexFactorySimpleMode create: vCompo).
+			elements add: elemts.
+		 ].
+	
+	^ elements.
+
+\draw[domain=0:3] (p_ext_req_8_a) .. controls +(200:30) and +(20:30) .. (p_int_req_6_b);
